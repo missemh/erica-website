@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+caption {
+    font-family: "ofelia-display", sans-serif; /* Use Ofelia Display font */
+    font-weight: 800; /* Use thin font weight */
+    font-style: italic;
+    font-size: 2em; /* Adjust the font size as needed */
+    padding: 0.5em;
+    border: 1px solid black;
+    text-align: left;
+} 
+
+
+
+.blackText {
+    color: black;
+}
+
+/* Apply styles to the menu item links */
+td.menu a {
+    font-family: "ofelia-display", sans-serif; /* Use Ofelia Display font */
+    font-weight: 300; /* Use thin font weight */
+    text-transform: uppercase; /* Capitalize text */
+    font-size: 2.5em; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    color: black;
+    letter-spacing: 0.1em; /* Add space between characters */
+}
+
+/* Apply styles to submenu links */
+td.subMenu a {
+    font-family: "ofelia-display", sans-serif; /* Use Ofelia Display font */
+    font-weight: 300; /* Use thin font weight */
+    text-transform: uppercase; /* Capitalize text */
+    font-size: 2.5em; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set color of links */
+    letter-spacing: 0.1em; /* Add space between characters */
+}
+
+/* Apply styles to the menu item links */
+td.content a {
+    font-family: "ofelia-display", sans-serif; /* Use Ofelia Display font */
+    font-weight: 300; /* Use thin font weight */
+    text-transform: uppercase; /* Capitalize text */
+    font-size: 2.5em; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set color of links */
+    letter-spacing: 0.1em; /* Add space between characters */
+}
+
+td.menu input, td.menu button {
+  font-family: "ofelia-display", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.5em; /* smaller than 2.5em */
+  /* other styles */
+}
+
+/* Define the custom CSS styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ofelia-display", sans-serif; /* Use Ofelia Display font with a fallback */
+    font-weight: 300; /* Use thin font weight */
+    text-transform: uppercase; /* Capitalize text */
+}
+
+h1 {
+    font-size: 2.5em; /* Set the font size for h1 */
+}
+
+h2 {
+    font-size: 2em; /* Set the font size for h2 */
+}
+
+h3 {
+    font-size: 1.8em; /* Set the font size for h3 */
+}
+
+body {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 300;
+}
+
+.portfolio {
+    width: 50%;
+    margin: 0 auto;
+}
+.asset-row {
+    display: flex;
+    justify-content: center;   /* centers the pair horizontally in the row */
+    align-items: flex-start;   /* keeps caption pinned to the top */
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.caption {
+    width: 200px;
+    flex-shrink: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.portfolio-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    min-width: 0;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    flex: 1;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#password-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#password-input {
+    padding: 10px;
+    font-family: "ofelia-display", sans-serif;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 30px;
+    font-family: "ofelia-display", sans-serif;
+}
